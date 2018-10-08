@@ -10,7 +10,7 @@ I have an ElasticSearch instance managing my data on a daily basis, and use Cura
 ## Usage
 restoresnapshots.py --help
 
-"""
+```bash
 usage: restoresnapshots.py [-h] [-ho HOST] [-p PORT] [-r REPOSITORY]
                            [-s SNAPSHOT] [-d] [--reload] [--debug]
 
@@ -29,4 +29,4 @@ optional arguments:
   -d, --delete          Delete the indexes corresponding with snapshots
   --reload              Force a reload of the cache
   --debug               Turn on debugging output
-"""
+```
